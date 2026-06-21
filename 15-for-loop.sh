@@ -9,3 +9,8 @@ for i in {1..4}
 do
     echo $i
 done
+
+for name in $@
+do
+    echo "Hello, $name"
+done
