@@ -26,6 +26,5 @@ for package in $@
 do
     dnf install $package -y  &>> $LOG_FILE
     VALIDATE $? "$package Installing"
-
 done
 
