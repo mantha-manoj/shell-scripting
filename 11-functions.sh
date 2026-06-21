@@ -4,4 +4,4 @@ PRINT_GREETING() {
     echo "Hello, $1"
 }
 
-PRINT_GREETING "Manoj"
+PRINT_GREETING $@
