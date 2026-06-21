@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Hello World" &>> $0.log
-echoo "Hello World" &>> $0.log
+echo "Hello World" &>> "/home/$USER/$0.log"
+echoo "Hello World" &>> "/home/$USER/$0.log"
 
 
 
